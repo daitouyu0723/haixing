@@ -3,23 +3,74 @@
 <head>
 <meta charset="utf-8">
 <title>index</title>
-<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/css/bootstrap.css" rel="stylesheet" />
+<link href="assets/css/bootstrap-responsive.css" rel="stylesheet" />
 <style type="text/css">
-.container div {
-    background-color: grey;
+.rank li {
+    border-bottom: 1px dotted; 
+    margin: 0 0 5px 0;
 }
 </style>
 </head>
 <body>
-<div class="navbar">
+<div class="navbar navbar-inverse">
     <div class="navbar-inner">
-        <a class="brand" href="">hai xing</a>
+        <div class="container">
+            <a class="brand" href="">hai xing</a>
+        </div>
     </div>
 </div>
 <div class="container">
-    <div class="span2">line1</div>
-    <div class="span6">line2</div>
-    <div class="span2">line1</div>
+    <div class="well">
+        <form class="form-search">
+            <input id="search" type="text" class="input-medium search-query">&nbsp;
+            <button type="submit" class="btn">搜索</button>
+        </form>
+    </div>
+    <div class="navbar">
+        <div class="navbar-inner">
+            <div class="nav-collapse collapse">
+                <ul class="nav">
+                    <li class="active"><a href="">首页</a></li>
+                    <li><a href="">玄幻</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <!-- left -->
+        <div class="span3 tabbable">
+            <ul class="nav nav-tabs">
+                <li class="active"><a href="#tab1" data-toggle="tab">阅读排行</a></li>
+                <li><a href="#tab2" data-toggle="tab">新书上架</a></li>
+                <li><a href="#tab3" data-toggle="tab">人气排行</a></li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane active" id="tab1">
+                    <ol class="rank">
+                        <li>[官场风云]&nbsp;官途</li>
+                        <li>第一本书</li>
+                        <li>第一本书</li>
+                        <li>第一本书</li>
+                        <li>第一本书</li>
+                        <li>第一本书</li>
+                        <li>第一本书</li>
+                        <li>第一本书</li>
+                        <li>第一本书</li>
+                        <li>第一本书</li>
+                    </ol>
+                </div>
+                <div class="tab-pane" id="tab2">
+                    <p>second line</p>
+                </div>
+                <div class="tab-pane" id="tab3">
+                    <p>third line</p>
+                </div>
+            </div>
+        </div>
+        <div class="span6">line2</div>
+        <div class="span3">line1</div>
+    </div>
 </div>
 <script type="text/javascript" src="assets/js/jquery.min.js"></script>
 <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>

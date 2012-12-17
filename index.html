@@ -24,7 +24,17 @@
     <div class="well">
         <form class="form-search">
             <input id="search" type="text" class="input-medium search-query">&nbsp;
-            <button type="submit" class="btn">搜索</button>
+            <div class="btn-group">
+                <button type="submit" class="btn">搜索</button>
+                <button class="btn dropdown-toggle" data-toggle="dropdown">
+                    更多<span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="">搜书名</a></li>
+                    <li><a href="">搜作者</a></li>
+                    <li><a href="">搜内容</a></li>
+                </ul>
+            </div>
         </form>
     </div>
     <div class="navbar">
@@ -122,7 +132,7 @@
             <ul class="nav nav-tabs">
                 <li class="active"><a href="#tab4" data-toggle="tab">本周强推</a></li>
                 <li><a href="#tab5" data-toggle="tab">最近更新</a></li>
-                <li><a href="#tab6" data-toggle="tab">鲜花排行</a></li>
+                <li><a href="#tab6" data-toggle="tab">全本精品</a></li>
             </ul>
             <div class="tab-content">
                 <div class="tab-pane active" id="tab4">

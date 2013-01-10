@@ -1,0 +1,48 @@
+/* CSS Document */
+
+
+/* 首页 */
+
+*{ margin:0; padding:0; font-family:"宋体"; font-size:14px;}
+.indexWrap { width:320px; background-color:#d6e2fa;}
+
+.top { height:60px; border-bottom:solid 3px #bd0040;}
+.logoImg { margin:5px 10px 5px 10px;}
+.partment { font-weight:bold; font-size:16px; color:#333; line-height:25px; margin:5px;}
+.margin5 { margin:5px;}
+.searchInput { margin:0px 8px 10px 15px;}
+.searchBtn { width:60px; height:31px; font-size:14px; font-weight:bold;}
+.searchWrap { width:300px; text-align:center;}
+.searchInput { width:220px; height:30px; border-radius:2px; border:solid 1px #ccc;}
+.tabTitle { height:35px; line-height:35px; background-color:#bac5d9; border:solid 1px #999; border-left:none; border-right:none;font-size:12px;}
+.tabActive { display:inline-block; width:33%;height:35px; line-height:35px; text-align:center;  background-color:#9db2d7; color:#fff; font-size:12px; cursor:pointer; }
+.booksPart {display:inline-block; width:31%; text-align:center; color:#3072cb; font-size:12px;cursor:pointer;}
+.indexInfosNone { display:none; margin-top:5px;}
+.bookWrap { width:118px; height:135px; border:solid 1px #999; padding:1px; display:inline-block;vertical-align:top; margin:10px 0px 0 10px;}
+.tabInfos { padding-bottom:10px;}
+.infoText {width:160px; height:125px; display:inline-block; vertical-align:top; margin:10px 10px 0 10px; overflow:hidden;}
+.bookAuthor { margin-left:10px; font-size:12px; height:22px; line-height:22px;}
+.contentsIntroduct { display:block;width:160px; height:100px;margin-top:5px; text-indent:24px; font-size:12px; line-height:20px;}
+
+/*列表页面*/
+.list_bookList { color:#494949; margin:10px 5px 0 5px; line-height:22px;}
+.listSpan {font-size:12px; margin-right:10px;}
+.tabTitle_index { color:#3072cb; font-size:12px; margin-left:8px;}
+
+/*list_directory*/
+.tabTitle_directory {color:#3072cb; font-size:12px; margin-left:15px;}
+.bookTitle_directory { font-weight:bold;}
+.direcory_list { width:300px; height:110px;}
+.direcory_list ul { width:140px; float:left; line-height:20px; list-style:none; margin-left:10px;}
+.direcory_list ul li { font-size:12px; color:#3072cb;}
+
+/*detail*/
+.detail_contents { width:300px; height:260px; margin:10px; color:#333;}
+.detail_bookTitle { width:300px; font-size:12px; margin-bottom:10px;}
+.detail_bookName { font-weight:bold; margin-right:10px; font-size:12px;}
+.detail_bookText { width:300px; height:200px; font-size:12px; text-indent:24px; line-height:20px; margin-top:15px;}
+.detail_page {margin-left:70px; margin-top:8px;}
+.pageUp { font-size:12px;margin-right:10px;}
+.colorGreen { color:#1d591e; }
+
+
